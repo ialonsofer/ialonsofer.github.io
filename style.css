@@ -216,11 +216,15 @@ a{
     text-align: center;
     margin:32px auto;
 }
+.highlighted-text{
+    background-color: #e5f300;
+    color: #2a016c;
+}
 .highlight{
     align-items: center;
 }
 .highlight-header{
-    font-family: Montserrat-Black;
+    font-family: Montserrat Medium;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
