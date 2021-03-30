@@ -1,0 +1,388 @@
+@font-face{
+    src: url("../fonts/Montserrat/Montserrat-Black.ttf");
+    font-family: "Montserrat-Black";
+}
+@font-face{
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+    font-family: "Montserrat Medium";
+    
+}
+@font-face{
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+    font-family: "Montserrat";
+}
+html {
+	scroll-behavior: smooth;
+}
+body{
+    font-family: Montserrat;
+    font-size:16px;
+    color:#0d0d0d;
+    line-height:24px;
+}
+footer{
+    height: fit-content;
+    background-color: #2a016c;
+    padding: 40px;
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-content{
+    width: 80%;
+    text-align: left;
+}
+.footer-image{
+    padding: 24px;
+}
+ul{
+    padding: 32px;
+}
+h1 {
+    color:#0d0d0d;
+    font-size: 80px;
+    font-family: 'Montserrat-Black',sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 34px;
+}
+h2{
+    font-family: Montserrat Medium;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1.73px;
+    color: #2A016C;
+    text-align: left;
+    max-width: 928px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 32px 16px 16px 64px;
+}
+h3{
+    font-family: Montserrat-Black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+h4{
+    font-family: Montserrat Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.919062px;
+}
+a{
+    color: #e5f300;
+    text-decoration: underline;
+}
+.avatar{
+    border-radius: 50%;
+    border: solid #2a016c;
+    width: 150px;
+    height: 150px;
+    cursor:pointer;
+}
+.avatar:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+    transition: .4s;
+}
+#Proyectos,#skills,#Metodologia{
+    padding-top: 64px;
+}
+.topbar{
+    padding:24px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+}
+.nav-item{
+    text-decoration: none;
+    font-family: Montserrat Medium;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color:#0D0D0D;
+    padding:0 56px;
+
+}
+.navbar-button{
+    justify-content: flex-end;
+    align-items: center;
+    padding:0 0 0 24px;
+    width:30%;
+}
+.navbar-links{
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    width:70%;
+}
+.separator-navbar{
+    border-bottom: solid 1px; 
+    border-color: #2a016c;
+    width: 98%;
+    margin:0  1%;
+}
+.first-page{
+    height: 80vh;
+    background-color: aliceblue;
+    background-image: url("../imgs/backgoround-pattern.jpg");
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.hero-banner-container{
+    width: 100%;
+    
+}
+.hero-banner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 72px auto 0px;
+    width: 80%;
+    max-width: 928px;
+    height: 286px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-banner-left{
+    padding:32px 32px 32px 0;
+}
+.hero-banner-right{
+    padding:32px;
+}
+.hero-banner-subtitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 34px;
+    margin: 8px 0;
+}
+
+.hero-banner-text{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 8px 0;
+}
+.hero-banner-description{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 8px 0;
+}
+.clicable-text{
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-size:12px;
+    padding: 4px 0 24px 0;
+    color:#2a016c;
+    text-align: center;
+}
+.hero-banner-right:active{
+    
+}
+.quote-container{
+
+}
+.quote{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 928px;
+    
+}
+.highlights-set{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 928px;
+    text-align: center;
+    margin:32px auto;
+}
+.highlight{
+    align-items: center;
+}
+.highlight-header{
+    font-family: Montserrat-Black;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    padding:24px 0 0 0;
+    max-width: 170px
+}
+.mainCTA{
+    text-align: center;
+}
+.primary-button{
+    background: #E5F300;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    padding:8px 16px;
+    font-family: Montserrat Medium;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color:#0d0d0d;
+    margin: 64px 0 64px 0;
+
+}
+.projects-set{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin:32px auto;
+    max-width: 1000px;
+}
+.project-card{
+    box-shadow: 0px 4px 41px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 8px;
+    cursor:pointer;
+}
+.project-card:hover{
+    box-shadow: 0px 8px 41px 8px rgba(0, 0, 0, 0.5);
+
+}
+.card-image{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.card-info{
+    padding:24px
+}
+.hashtag{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2A016C;
+    margin:8px 0;
+}
+.secondary-button{
+    text-decoration: none;
+    background: #2A016C;
+    border-radius: 46px;
+    padding: 8px 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.3px;
+    color: #FFFFFF;
+    height: fit-content;
+    display:inline-block;
+    margin-top: 16px;
+}
+
+.metodologia-card{
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 8px;
+    cursor: initial;
+}
+.metodologia-card:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.metodologia-title{
+    margin-bottom: 24px;
+    font-size:28px;
+    font-family:Montserrat Medium;
+}
+@media only screen and (max-width : 948px) {
+    footer{
+        flex-direction: column;
+    }
+    h2{
+        font-family: Montserrat Medium;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -1.73px;
+        color: #2A016C;
+        text-align: left;
+        max-width: 928px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 16px 16px 16px 16px;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .navbar-button{
+        justify-content: flex-end;
+        align-items: center;
+        padding:0 0 0 24px;
+        width:100%;
+    }
+    .first-page{
+        height: 100vh;
+    }
+    .hero-banner-container{
+        display: block;
+    }
+    .hero-banner-left{
+        padding:0
+    }
+    .hero-banner-right{
+        padding: 0;
+    }
+    .quote{
+        font-size: 24px;
+    }
+    .clicable-text{
+        font-size: 14px;
+    }
+    .projects-set{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .highlights-set{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 928px;
+        text-align: center;
+        margin:32px auto;
+    }
+    .highlight{
+        padding:24px 0;
+    }
+
+}
+
